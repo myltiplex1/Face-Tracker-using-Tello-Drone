@@ -22,7 +22,7 @@ You can install the required Python libraries with:
 1. Initialize the Drone:
 The initialize_drone() function sets up the drone for flight, checks the battery level, calibrates the gyroscope, and starts the video stream.
 2. Face Detection and Tracking:
-The detect_and_track_face() function captures frames from the drone’s camera, uses the FaceMeshDetector to detect faces, and sends movement commands to the drone based on the face’s location and size.
+The detect_and_track_face() function captures frames from the drone’s camera, uses the meshDetector.py to detect faces, and sends movement commands to the drone based on the face’s location and size.
 3. PID Control for Stability:
 PID control is used to adjust the drone’s yaw (rotation) and forward/backward speed based on the face’s position in the frame.
 4. Safety Measures:
@@ -32,7 +32,7 @@ If no face is detected for a specified amount of time, the drone will automatica
 Run the Project
 After setting up the required libraries and connecting the Tello drone, you can run the project using the following command:
 
-python drone_face_tracking.py
+python3 face_tracker.py
 
 This will start the drone, initiate the face detection, and begin tracking.
 
