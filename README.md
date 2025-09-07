@@ -40,3 +40,6 @@ This will start the drone, initiate the face detection, and begin tracking.
 - Ensure that your drone has sufficient battery charge.
 - The drone will land automatically if no face is detected within a set time.
 - The height.py can be used to know the drone's height.
+
+Watch the project demo on LinkedIn: [Face Tracker](https://www.linkedin.com/posts/enoch-soyinka-8a7454208_drone-facedetection-ai-activity-7270211503373303810-ZeXs?utm_source=share&utm_medium=member_android&rcm=ACoAADS_ZP8BPhKd7aGX8NskMssfh3JZjblpkQM)
+
